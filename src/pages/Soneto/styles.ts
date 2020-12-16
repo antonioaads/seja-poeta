@@ -2,6 +2,13 @@ import styled from "styled-components";
 
 import { shade } from "polished";
 
+export const Header = styled.div`
+  max-width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
+
 export const Form = styled.form`
   margin-top: 40px;
   max-width: 800px;

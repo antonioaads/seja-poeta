@@ -1,7 +1,6 @@
 import React from "react";
 
-import { Button } from "./styles";
-import { Logo, Title, Subtitle } from "../../components/styles";
+import { Logo, Title, Subtitle, Button } from "../../components/styles";
 
 const Main: React.FC = () => {
   return (
